@@ -1,0 +1,16 @@
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
+
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^communityoflove2022\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.communityoflove2022\.com$
+RewriteRule ^/?$ "https\:\/\/communityoflove2022\.com\/" [R=301,L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.html [QSA,L]
+
+

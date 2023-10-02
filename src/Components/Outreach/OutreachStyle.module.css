@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.rowWrapper{  
+  padding: 0 .5rem;
+  margin-top: -1rem;
+}
+
+.TextImg1Style,
+.TextImg2Style,
+.Image1Style,
+.Image2Style {
+  width: 100%;
+  height: auto;
+}
+
+
+@media screen and (min-width:768px) {
+  .cardWrapper {
+    display:flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .rowWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .divWrapper,
+  .divWrapper2 {
+    display: flex;
+  }
+
+  .divWrapper {
+    flex-direction: row-reverse;
+  }
+
+  .cardWrapper {
+    margin-top: 7.5rem;
+  }
+}

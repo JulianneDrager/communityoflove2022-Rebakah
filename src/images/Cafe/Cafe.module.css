@@ -1,0 +1,21 @@
+.logoStyle,
+.bibleImg {
+    width: 60%;
+}
+
+.divWrapper{
+    background-color: white;
+    margin: 0 .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.h1STyle{
+    text-align: center;
+}
+
+.listWrapper{
+    text-align: center;
+}
