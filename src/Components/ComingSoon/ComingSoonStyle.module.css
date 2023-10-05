@@ -3,7 +3,7 @@
 .h1Style {
   font-family: "Eb Garamond";
   font-size: 2.4rem;
-  color: #1b4da2;
+  color: #091a37;
   line-height: 2rem;
   text-align: center;
   padding: 2rem 0 0 0;
@@ -21,13 +21,9 @@
 .pStyle2a {
   text-align: center;
   padding: .5rem;
-  background-color: #aca97ead;
+  background-color: #ffffff91;
   margin: .2rem 0 0 0;
-  border-bottom: 1px outset #6767682e;
-}
-
-.pStyle2a {
-  background-color: #a98519;
+  border-bottom: 1px outset;
 }
 
 .h5Style {
@@ -41,6 +37,11 @@
   margin: 1rem 0 -2.2rem 0;
 }
 
+.flyer {
+  width: 100%;
+  height: auto;
+}
+
 .rowWrapper,
 .rowWrapperTop {
   padding: 0 .5rem 1rem .5rem;
@@ -48,7 +49,7 @@
   background-size: cover;
   margin: 0 .5rem -1rem .5rem;
   border: none;
-  height: 1280px;
+  /* height: 1180px; */
 }
 
 .rowWrapperTop {
@@ -86,9 +87,9 @@
 
 @media screen and (min-width:375px) {
 
-  .rowWrapper {
+  /* .rowWrapper {
     height: 1230px
-  }
+  } */
 
   .h5Style {
     font-size: 1.43rem;
@@ -99,7 +100,7 @@
 
 @media screen and (min-width:414px) {
 
-  .h5Style{
+  .h5Style {
     padding: 0 1rem;
   }
 
@@ -116,29 +117,13 @@
     height: auto;
   }
 
-  .rowWrapper {
+  /* .rowWrapper {
     height: 1172px
-  }
+  } */
 
 }
 
 @media screen and (min-width:600px) {
-
-  .servParWrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-  }
-
-  .pStyle2 {
-    padding: 1rem;
-    width: 12rem;
-  }
-
-  .pStyle2a {
-    width: 12rem;
-  }
 
   .h5Style {
     font-size: 1.5rem;
@@ -148,11 +133,9 @@
   .comingSoonText {
     font-size: 1.5rem;
   }
-}
 
-@media screen and (min-width:736px) {
   .rowWrapper {
-    height: 1025px;
+    height: 1351px;
   }
 }
 
@@ -168,7 +151,7 @@
     background: url("../../images/desktop-coming-soon/desktop-c-s-background.jpg") no-repeat center -5rem;
     background-size: cover;
     margin: 0 .5rem;
-    height: 727px;
+    height: 867px;
   }
 
   .rowWrapperTop {
@@ -211,19 +194,25 @@
     align-content: center;
   }
 
-  .pStyle2 {
-    padding: 1rem;
-    width: 9rem;
-  }
-
+  .pStyle2,
   .pStyle2a {
-    width: 9rem;
+    padding: 1rem;
   }
+}
+
+@media screen and (min-width:992px) {
+.rowWrapper {
+  height: 927px;
+}
+
+.flyer {
+  max-width: 1000px;
+}
 }
 
 @media screen and (min-width:1024px) {
 
-  .h1Style{
+  .h1Style {
     font-size: 3.3rem;
   }
 
@@ -235,25 +224,43 @@
   .pStyle2a {
     width: 20rem;
   }
+
+  .colStyle {
+    margin: 1rem 1rem 0 .2rem;
+    width: 31%;
+  }
+
+  .EmpIconStyle,
+  .EmprIconStyle,
+  .PetIconStyle {
+    width: 84px;
+  }
 }
 
 @media screen and (min-width:1200px) {
 
   .h1Style {
-    margin-top: -5.2rem;  
-}
+    margin-top: -5.2rem;
+  }
+
+  .rowWrapperTop {
+    padding: 2rem 0 0 0;
+
+  }
+
+  .rowWrapper {
+    height: 1000px;
+  }
 }
 
 @media screen and (min-width:1300px) {
 
-  .rowWrapper {
-    height: 637px;
-  }
+
 }
 
 @media screen and (min-width:1450px) {
 
   .h1Style {
-    margin-top: 0;  
-}
+    margin-top: 0;
+  }
 }

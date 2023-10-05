@@ -5,6 +5,8 @@ import { Button } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import HeaderStyle from "./Header.module.css";
+import Sharon from "../../images/mobile-header/sharon.jpg";
+import SharonSlideBackground from "../../images/mobile-header/sharon-slide-background.jpg";
 import One from "../../images/mobile-header/outreach.jpg";
 import Three from "../../images/mobile-header/coming-soon.jpg";
 import Four from "../../images/mobile-header/online-courses.jpg";
@@ -13,10 +15,13 @@ import Six from "../../images/mobile-header/prayer.jpg";
 
 const Gallery = () => {
   const galleryCard = HeaderStyle.galleryCard;
+  const galleryCardSharon = HeaderStyle.galleryCardSharon;
   const gallerySlideTitle = HeaderStyle.gallerySlideTitle;
   const galleryParagraph = HeaderStyle.galleryParagraph;
   const imgSize = HeaderStyle.imgSize;
   const btnGallery = HeaderStyle.btnGallery;
+  const gallerySlideTitleSharon = HeaderStyle.gallerySlideTitleSharon;
+  const imgSharonBack = HeaderStyle.imgSharonBack;
 
   const responsive = {
     superLargeDesktop: {
@@ -37,6 +42,24 @@ const Gallery = () => {
       items: 1,
     },
   };
+
+  const SharonPicture = (
+    <div>
+      <img className={imgSharonBack} src={SharonSlideBackground} alt="" />
+      <div className={galleryCardSharon}>
+        <h6 className={gallerySlideTitleSharon}>CEO & FOUNDER</h6>
+        <p style={{marginTop:"-.8rem"}} className={galleryParagraph}>
+          Sharon Chapman
+        </p>
+        <Button
+          className={btnGallery}
+          href="/tmp/communityoflove2022.com/#cafe"
+        >
+          LEARN MORE
+        </Button>
+      </div>
+    </div>
+  );
 
   const Item1 = (
     <div>
@@ -140,18 +163,19 @@ const Gallery = () => {
       responsive={responsive}
       infinite={true}
       autoPlay="true"
-      autoPlaySpeed={2500}
+      autoPlaySpeed={6000}
       showThumbs={false}
       showArrows={false}
       infiniteLoop={true}
       showIndicators={false}
       animationHandler="fade"
     >
+      <div>{SharonPicture}</div>
       <div>{Item1}</div>
       <div>{Item2}</div>
       <div>{Item3}</div>
       <div>{Item4}</div>
-      <div>{Item5}</div>
+      <div>{Item5}</div> 
     </Carousel>
     // <Carousel
 

@@ -12,7 +12,7 @@ const OutreachGallery = () => {
   return (
     <>
         <div id="courses">
-          <h1 className={h1Style}>Community Online Language Courses</h1>
+          <h1 className={h1Style}>Foreign Language Online Courses</h1>
         </div>
         { !matchsLg && <div style={{display:"block"}}><Gallery /></div>}
         { matchsLg && <CoursesFlat/>}

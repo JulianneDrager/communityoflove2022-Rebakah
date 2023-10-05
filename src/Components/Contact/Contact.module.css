@@ -13,15 +13,20 @@
   margin: 0.3rem 0;
 }
 
-.footer {
+.footer,
+.footerScreen {
   color: black;
   width: 100%;
-  font-size: .9rem;
+  font-size: .8rem;
   text-align: center;
   padding: .5rem 0;
   background-color: #a98519;
   margin-top: 5vh;
 }
+
+/* .footerScreen {
+  width: 100%;
+} */
 
 
 .contactTitle {
@@ -55,7 +60,8 @@
 .formStyle {
   background-color: #091a37;
   background-size: cover;
-  margin: -5rem .44rem;
+  /* margin: -5rem .44rem; */
+  margin: -1rem .44rem;
 }
 
 .btn{
@@ -67,7 +73,7 @@
   width: 70% !important;
   transition: .5s;
   padding: 1rem 0rem;
-  margin: 1rem 0;
+  margin: 1rem 0 2rem 0;
 }
 
 .btn:hover {
@@ -91,15 +97,28 @@
   .btn {
     width: 75%;
   }
+
+  /* .footerScreen {
+    margin: 1rem .6rem;
+    width: 94.9%;
+  } */
 }
 
 @media screen and (min-width: 600px) {
   .contact {
     font-size: 2rem;
   }
+  /* .footerScreen {width: 96.5%;} */
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
+  .contact {
+    font-size: 2rem;
+  }
+  .footerScreen {width: 97.2%; margin: 0 .47rem}
+}
+
+@media screen and (min-width: 736px) {
   .contactTitle{
     padding: 1rem 2rem;
   }
@@ -117,6 +136,11 @@
 
   .footer {
     margin: 15vh 0 0 0;
+  }
+
+  .footerScreen {
+    width: 99.6%;
+    margin: -1.5rem .1rem 0 .1rem;
   }
 }
 
@@ -136,5 +160,10 @@
 
   .footer {
     margin: 25vh 0 0 0;
+  }
+
+  .footerScreen {
+    width: 99.8%;
+    margin: -1.5rem .1rem 0 .1rem;
   }
 }

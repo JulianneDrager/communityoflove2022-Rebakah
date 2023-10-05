@@ -3,7 +3,7 @@ import AboutStyle from "./AboutStyle.module.css";
 import LearnMoreButton from "./LearnMoreButton";
 import profileImg from "../../images/mobile-about/sharon-about.jpg";
 import Divider from "../Divider/Divider";
-import GalleryAbout from "./GalleryAbout"
+import GalleryAbout from "./GalleryAbout";
 import { Card } from "react-bootstrap";
 import { useMediaQuery } from "@mui/material";
 
@@ -25,7 +25,6 @@ const About = () => {
   return (
     <>
       <div id="about">
- 
         <Card className={cardWrapper}>
           <Card className={innerCardWrapper}>
             <Card.Body className={cardBody}>
@@ -33,52 +32,60 @@ const About = () => {
 
               <div>
                 <div className={mainWrapper}>
+                  {matchesLg && (
+                    <div className={titleImgWrapper}>
+                      <p className={title}>Welcome to the Community</p>
+                      <p className={subTitle}>
+                        Were <em>you mater</em>
+                      </p>
+                      <div className={divider}></div>
+                      <GalleryAbout />
+                    </div>
+                  )}
 
-                  { matchesLg && <div className={titleImgWrapper}>
-                    <p className={title}>Welcome to the Community</p>
-                    <p className={subTitle}>Were <em>you mater</em></p>
-                    <div className={divider}></div>
-                    <GalleryAbout />
-                  </div>
-                  }
-
-
-                  { !matchesLg && <div className={titleImgWrapper}>
-                    <GalleryAbout />
-                  </div>
-                  }
+                  {!matchesLg && (
+                    <div className={titleImgWrapper}>
+                      <GalleryAbout />
+                    </div>
+                  )}
 
                   <div className={textAndBtnWrapper}>
                     <div className={aboutParagraph}>
-                      {!matchesLg && 
-                      <>
-                    <p className={title}>Welcome to the Community</p>
-                    <p className={subTitle}>Were <em>you mater</em></p>
-                    <div className={divider}></div>
-                      </>
-                      }
-                      <span style={{ fontSize: "1.5rem", lineHeight:"1.5rem" }}>
-                        Hi, My name is Sharon Chatman. I am the founder of Community
-                        of Love...
+                      {!matchesLg && (
+                        <>
+                          <p className={title}>Welcome to the Community</p>
+                          <p className={subTitle}>
+                            Were <em>you mater</em>
+                          </p>
+                          <div className={divider}></div>
+                        </>
+                      )}
+                      <span
+                        style={{ fontSize: "1.5rem", lineHeight: "1.5rem" }}
+                      >
+                        Hello my name is Sharon Chatman the Founder/CEO of
+                        Community of Love.
                       </span>
                       <hr />
-                      Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                      <p>
+                        It's a pleasure to introduce myself to all of you
+                        wonderful people. I started this company with the
+                        expectations of providing services to help all
+                        communities all around the world.
+                      </p>
+                      I am a mother, a grandmother, an aunt, a cousin, a niece,a
+                      daughter, a godmother, a friend, and most importantly a
+                      child of God.
                     </div>
 
                     <LearnMoreButton />
-
                   </div>
                 </div>
               </div>
             </Card.Body>
           </Card>
         </Card>
-        <Divider/>
+        <Divider />
       </div>
     </>
   );

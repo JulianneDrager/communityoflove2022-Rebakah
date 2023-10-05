@@ -36,6 +36,8 @@ const Gallery = () => {
       infinite={true}
       autoPlay="true"
       autoPlaySpeed={2500}
+      preventMovementUntilSwipeScrollTolerance={true}
+      swipeScrollTolerance={50}
     >
       <div><Spanish/></div>
       <div><Swahili/></div>

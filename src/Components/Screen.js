@@ -38,6 +38,7 @@ const Screen = () => {
             <CourseSection/>
             <Cafe/>
             <Contact/>
+            
           </div>
         </div>
       </Container>

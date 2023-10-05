@@ -22,7 +22,7 @@ const GalleryAbout = () => {
     <Carousel
       autoPlay={true}
       showThumbs={false}
-      showArrows={false}
+      showArrows={true}
       infiniteLoop={true}
       showIndicators={false}
       showStatus={false}

@@ -15,6 +15,7 @@ const Cafe = () => {
   const bibleImg = CafeStyle.bibleImg;
   const leftWrapper = CafeStyle.leftWrapper;
   const rightWrapper = CafeStyle.rightWrapper;
+  const matthew513 = CafeStyle.matthew513;
   const matchesSm = useMediaQuery("(max-width: 765px)");
   return (
     <>
@@ -25,6 +26,12 @@ const Cafe = () => {
           <div style={{ textAlign: "center" }}>
             <h1 className={h1Style}>The Branch Of Zion</h1>
             <h2 className={theHeartH1Style}>What Feeds The Community</h2>
+            <p className={h1Style}>Matthew 5:13</p>
+            <p className={matthew513}>
+              “Ye are the salt of the earth: but if the salt have lost his
+              savour, wherewith shall it be salted? it is thenceforth good for
+              nothing, but to be cast out, and to be trodden under foot of men.”
+            </p>
           </div>
           <div className={listWrapper}>
             <p style={{ margin: "0" }}>Volunteer Network</p>
@@ -43,6 +50,12 @@ const Cafe = () => {
           <div className={leftWrapper}>
             <h1 className={h1Style}>The Branch Of Zion</h1>
             <h2 className={theHeartH1Style}>What Feeds The Community</h2>
+            <p className={h1Style}>Matthew 5:13</p>
+            <p className={matthew513}>
+              “Ye are the salt of the earth: but if the salt have lost his
+              savour, wherewith shall it be salted? it is thenceforth good for
+              nothing, but to be cast out, and to be trodden under foot of men.”
+            </p>
             <div className={listWrapper}>
               <p style={{ margin: "0" }}>Volunteer Network</p>
               <p style={{ margin: "0" }}>Spiritual Guidance</p>

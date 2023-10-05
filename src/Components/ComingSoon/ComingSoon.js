@@ -3,9 +3,12 @@ import { Card, Container, Image, Col, Row } from "react-bootstrap";
 // import MenuStyle from "../PrayerAndTestimony/PrayerStyle.module.css";
 import EmployeeIcon from "../../images/mobile-coming-soon/employee-icon.png";
 import EmployerIcon from "../../images/mobile-coming-soon/employeer-icon.png";
+import ServiceFlyer from "../../images/mobile-coming-soon/mobile-services-flyer.png"
+import DesktopServiceFlyer from "../../images/desktop-coming-soon/services-flyer.png"
 import PetIcon from "../../images/mobile-coming-soon/pet-icon.png";
 import DividerRight from "../Divider/DividerRight";
 import ComingSoonStyle from "./ComingSoonStyle.module.css";
+import { useMediaQuery } from "@mui/material";
 
 const VenderSection = () => {
   const EmpIconStyle = ComingSoonStyle.EmpIconStyle;
@@ -21,10 +24,10 @@ const VenderSection = () => {
   const petColStyle = ComingSoonStyle.petColStyle;
   const servColStyle = ComingSoonStyle.servColStyle;
   const pStyle = ComingSoonStyle.pStyle;
-  const pStyle2 = ComingSoonStyle.pStyle2;
-  const pStyle2a = ComingSoonStyle.pStyle2a;
+  const flyer = ComingSoonStyle.flyer;
   const rowWrapperTop = ComingSoonStyle.rowWrapperTop;
   const servParWrapper = ComingSoonStyle.servParWrapper;
+  const matchesLg = useMediaQuery("(min-width:765px)")
 
   return (
     <>
@@ -32,7 +35,7 @@ const VenderSection = () => {
         <Row className={rowWrapperTop}>
           <Col className={colTitleStyle}>
             <p className={comingSoonText}>Coming Soon</p>
-            <h1 className={h1Style}>Community Services</h1>
+            <h1 className={h1Style}>Family Services</h1>
           </Col>
         </Row>
         <Row className={rowWrapper}>
@@ -43,9 +46,9 @@ const VenderSection = () => {
                 src={EmployeeIcon}
                 alt="acts-scripture"
               />
-              <h5 className={h5Style}>Calling Employees</h5>
+              <h5 className={h5Style}>Find Services</h5>
               <p className={pStyle}>
-                Apply and be matched for the perfect position
+                Inquire for assistance and find your perfect match
               </p>
             </Col>
             <Col
@@ -59,25 +62,9 @@ const VenderSection = () => {
                 src={EmployerIcon}
                 alt="acts-scripture"
               />
-              <h5 className={h5Style}>Calling Employers</h5>
+              <h5 className={h5Style}>Employment Opportunities</h5>
               <p className={pStyle}>
-                Seamlessly post your needs and communicate qualified talent's
-              </p>
-            </Col>
-            <Col
-              xs={12}
-              md={4}
-              style={{ marginTop: "1rem" }}
-              className={petColStyle}
-            >
-              <Image
-                className={PetIconStyle}
-                src={PetIcon}
-                alt="acts-scripture"
-              />
-              <h5 className={h5Style}>Calling Moms & Pops</h5>
-              <p className={pStyle}>
-                Own a pet? Have children? Find a service you need fast and safe
+                Find employment in various fields and locations
               </p>
             </Col>
             <Col
@@ -90,14 +77,16 @@ const VenderSection = () => {
                 Community of Love Family Services will Include The Following:
               </h5>
               <div className={servParWrapper}>
-                <p className={pStyle2}>Babysitting Services</p>
-                <p className={pStyle2a}>Childcare Services</p>
+               { !matchesLg && <Image src={ServiceFlyer} className={flyer}/>}
+               { matchesLg && <Image src={DesktopServiceFlyer} className={flyer}/>}
+
+                {/* <p className={pStyle2a}>Sitter/Childcare Services</p>
                 <p className={pStyle2}>Tutoring Services</p>
                 <p className={pStyle2a}>Pet Sitting Services</p>
                 <p className={pStyle2}>Counseling Services</p>
                 <p className={pStyle2a}>House Cleaning Services</p>
                 <p className={pStyle2}>Foreign Language Courses</p>
-                <p className={pStyle2a}>Transport & Carpool Services</p>
+                <p className={pStyle2a}>Transport & Carpool Services</p> */}
               </div>
             </Col>
           </div>

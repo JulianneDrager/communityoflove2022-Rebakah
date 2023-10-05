@@ -1,9 +1,12 @@
 .navBar {
-    background-color: #202124;
+    background-color: #112a54 ;
 }
 .navBarBrand {
     color: #353535;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
+    .navBar {
+        background-color: #202124;
+    }
 }

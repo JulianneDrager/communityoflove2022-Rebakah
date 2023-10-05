@@ -4,6 +4,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import ContactStyle from "./Contact.module.css";
 import DividerTestimony from "../Divider/DividerTestimony";
+import FooterScreen from "../Footer/FooterScreen";
 
 const Contact = () => {
   const contactTitle = ContactStyle.contactTitle;
@@ -126,6 +127,7 @@ const Contact = () => {
             </div>
           </Form>
         </Card.Body>
+        <FooterScreen/>
       </Card>
     </>
   );

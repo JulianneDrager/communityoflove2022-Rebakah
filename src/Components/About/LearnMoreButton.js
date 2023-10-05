@@ -5,17 +5,15 @@ import { Card, Button } from "react-bootstrap";
 
 const RegisterButton = () => {
   const learnMoreCard = LearnMoreStyle.learnMoreCard;
-  const subText = LearnMoreStyle.subText;
   const btn = LearnMoreStyle.btn;
 
   return (
     <>
       <div id="about">
         <Card.Body className={learnMoreCard}>
-          <p className={subText}>I want to learn more</p>
           <hr style={{ margin: "0", opacity: "0" }}></hr>
           <Button href="/" className={btn}>
-            View Sharon's Testimony
+            Read Full Testimony
           </Button>
         </Card.Body>
       </div>
