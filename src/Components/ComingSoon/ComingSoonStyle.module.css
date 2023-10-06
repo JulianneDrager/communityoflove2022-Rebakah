@@ -91,6 +91,15 @@
     height: 1230px
   } */
 
+  .comingSoonText {
+    font-size: 1.2rem;
+    margin: 1.5rem 0 -2.2rem 0;
+  }
+
+  .pStyle {
+    font-size: 1.1rem;
+  }
+
   .h5Style {
     font-size: 1.43rem;
     line-height: 1.5rem;
@@ -150,6 +159,7 @@
   .comingSoonText {
     font-size: 2rem;
     font-family: "Eb Garamond";
+    margin: 0rem 0 -2.2rem 0;
     color: #1b4da2;
   }
 
@@ -205,7 +215,34 @@
   .pStyle2a {
     padding: 1rem;
   }
+
+  .h5Style{
+    font-size: 1.9rem;
+    padding-bottom: 0.5rem;
+  }
 }
+
+@media screen and (min-width:800px) {
+  .comingSoonText {
+    margin: 0rem 0 -2.2rem 0;
+  }
+
+  .h5Style{
+    font-size: 1.9rem;
+    padding-bottom: 0.5rem;
+  }
+  }
+
+@media screen and (min-width:812px) {
+  .comingSoonText {
+    margin: 0rem 0 -2.2rem 0;
+  }
+
+  .h5Style{
+    font-size: 1.9rem;
+    padding-bottom: 0.5rem;
+  }
+  }
 
 @media screen and (min-width:992px) {
 .rowWrapper {
@@ -221,6 +258,11 @@
 
   .h1Style {
     font-size: 3.3rem;
+  }
+
+  .comingSoonText {
+    margin: -0.5rem 0 -2.2rem 0;
+    padding-bottom: 0.5rem;
   }
 
   .pStyle2 {
@@ -262,6 +304,18 @@
 
 @media screen and (min-width:1300px) {
 
+
+}
+
+@media screen and (min-width:1366px) {
+  
+  .comingSoonText{
+    margin: -2.5rem 0 -2.2rem 0;
+  }
+  
+  .h1Style {
+    margin-top: -0.2rem;
+  }
 
 }
 

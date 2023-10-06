@@ -100,6 +100,16 @@
   }
 }
 
+@media screen and (min-width:736px) {
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .cardBody {
+    margin-top: 3rem;
+  }
+}
+
 @media screen and (min-width:768px) {
 
   .subTitle {
@@ -121,9 +131,13 @@
   }
 
   .aboutParagraph {
-    padding: 1.5rem;
+    padding: 1.5rem 0rem 1.5rem 1rem;
   }
   
+  .subTitle {
+    padding-top: 0.5rem;
+  }
+
   .mainWrapper {
     display: flex;
     flex-direction: row;
@@ -144,4 +158,22 @@
     width: 50%;
   }
 
+}
+
+@media screen and (min-width:800px) {
+  .aboutParagraph {
+    padding: 1.5rem 0rem 1.5rem 1rem;
+  }
+  .subTitle {
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width:812px) {
+  .aboutParagraph {
+    padding: 1.5rem 0rem 1.5rem 1rem;
+  }
+  .subTitle {
+    padding-top: 0.5rem;
+  }
 }
