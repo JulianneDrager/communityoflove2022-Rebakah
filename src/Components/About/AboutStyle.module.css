@@ -92,6 +92,10 @@
   .cardWrapper {
     margin-top: 0rem ;
   }
+
+  .title {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width:667px) {
@@ -175,5 +179,57 @@
   }
   .subTitle {
     padding-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .aboutParagraph {
+    padding: 0.5rem 4rem 2.5rem 4rem;
+  }
+
+  .textAndBtnWrapper {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width:1366px) {
+  .title {
+    font-size: 1.9rem;
+  }
+
+  .subTitle {
+    font-size: 3.9rem;
+  }
+  .aboutParagraph {
+    padding: 0.5rem 4rem 2.5rem 4rem;  
+    font-size: 1.2rem;
+  }
+
+  .textAndBtnWrapper {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width:1366px) {
+  .title {
+    font-size: 1.9rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .subTitle {
+    font-size: 4.7rem;
+    padding-bottom: 0.5rem;
+  }
+  .aboutParagraph {
+    padding: 0.5rem 4rem 2.5rem 4rem;  
+    font-size: 1.4rem;
+  }
+
+  .textAndBtnWrapper {
+    padding-top: 1rem;
   }
 }
