@@ -69,6 +69,11 @@
     font-size: 3rem;
   }
 }
+@media screen and (min-width:414px) {
+  .title {
+    font-size: 1.2rem;
+  }
+}
 
 @media screen and (min-width:500px) {
   .subTitle {
