@@ -73,7 +73,7 @@ const About = () => {
                         expectations of providing services to help all
                         communities all around the world.
                       </p>
-                      I am a mother, a grandmother, an aunt, a cousin, a niece,a
+                      I am a mother, a grandmother, an aunt, a cousin, a niece, a
                       daughter, a godmother, a friend, and most importantly a
                       child of God.
                     </div>
