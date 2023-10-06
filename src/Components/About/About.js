@@ -36,7 +36,7 @@ const About = () => {
                     <div className={titleImgWrapper}>
                       <p className={title}>Welcome to the Community</p>
                       <p className={subTitle}>
-                        Were <em>you mater</em>
+                        Where <em>you </em>matter
                       </p>
                       <div className={divider}></div>
                       <GalleryAbout />
@@ -55,7 +55,7 @@ const About = () => {
                         <>
                           <p className={title}>Welcome to the Community</p>
                           <p className={subTitle}>
-                            Were <em>you mater</em>
+                            Where <em>you</em> matter
                           </p>
                           <div className={divider}></div>
                         </>

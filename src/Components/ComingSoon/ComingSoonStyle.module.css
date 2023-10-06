@@ -99,6 +99,13 @@
 }
 
 @media screen and (min-width:414px) {
+  .comingSoonText {
+    font-size: 1.3rem;
+  }  
+
+  .pStyle {
+    font-size: 1.1rem;
+  }
 
   .h5Style {
     padding: 0 1rem;
