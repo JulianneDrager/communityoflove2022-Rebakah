@@ -61,7 +61,7 @@ const Contact = () => {
                 Connect with the Community
               </Card.Title>
               <Card.Text style={{ color: "white" }}>
-                Please let us know what is on your heart to contact us
+                Please let us know what is on your heart 
               </Card.Text>
             </Row>
 

@@ -221,6 +221,18 @@
     padding-bottom: 0.5rem;
   }
 }
+@media screen and (min-width:375px) {
+ 
+  .h5Style{
+    font-size: 1.51rem;
+  }
+  }
+@media screen and (min-width:414px) {
+ 
+  .h5Style{
+    font-size: 1.5rem;
+  }
+  }
 
 @media screen and (min-width:800px) {
   .comingSoonText {
