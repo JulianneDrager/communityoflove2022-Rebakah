@@ -60,19 +60,19 @@ const Navigation = () => {
             <Nav className="me-auto">
               <Nav.Link href="/tmp/communityoflove2022.com/">Home</Nav.Link>
               <Nav.Link href="/tmp/communityoflove2022.com/#cafe">
-                Gods Gospel Cafe
+                God's Gospel Cafe
               </Nav.Link>
               <Nav.Link href="/tmp/communityoflove2022.com/#coming-soon">
-                Community Services
+                Family Services
               </Nav.Link>
               <Nav.Link href="/tmp/communityoflove2022.com/#courses">
-                Online Language Courses
+                Language Courses
               </Nav.Link>
               <Nav.Link href="/tmp/communityoflove2022.com/#quick-links">
                 Give/Partner
               </Nav.Link>
               <Nav.Link href="/tmp/communityoflove2022.com/#quick-links">
-                Prayer Request
+                Request Prayer
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

@@ -27,7 +27,7 @@ const QuickLinks = () => {
         </Col>
         <Col  md={6}>
           <div className={btnWrapper}>
-            <Button href="/tmp/communityoflove2022.com/prayer"className={btnNeedPrayer}>NEED PRAYER</Button>
+            <Button href="/tmp/communityoflove2022.com/prayer"className={btnNeedPrayer}>REQUEST PRAYER</Button>
             <Button className={btn}>GIVE</Button>
             <Button className={btn}>PARTNER</Button>
           </div>
