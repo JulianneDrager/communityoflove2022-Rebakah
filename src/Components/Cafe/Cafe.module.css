@@ -71,7 +71,7 @@
 }
 
 .btn:hover {
-    background-color: black;
+    background-color: #d1b918;
     border: none;
     color: white;
     transform: scale(80%);

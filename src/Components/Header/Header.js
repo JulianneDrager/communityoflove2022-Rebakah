@@ -22,7 +22,7 @@ const Header = () => {
         style={{ width: "127px" }}
         className={btnMobile}
       >
-        {slash} GODS GOSPEL CAFE {slash}
+        {slash} GOD'S GOSPEL CAFE {slash}
       </Button>
       <Button
         href="/tmp/communityoflove2022.com/#coming-soon"
@@ -36,7 +36,7 @@ const Header = () => {
         style={{ width: "101px" }}
         className={btnMobile}
       >
-        ONLINE COURSES
+        LANGUAGE COURSES
       </Button>
       <Button
         href="/tmp/communityoflove2022.com/#quick-links"

@@ -65,7 +65,7 @@ const Gallery = () => {
     <div>
       <img className={imgSize} src={One} alt="" />
       <div className={galleryCard}>
-        <h6 className={gallerySlideTitle}>GODS GOSPEL CAFE</h6>
+        <h6 className={gallerySlideTitle}>GOD'S GOSPEL CAFE</h6>
         <p className={galleryParagraph}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna
@@ -142,7 +142,7 @@ const Gallery = () => {
     <div>
       <img className={imgSize} src={Six} alt="" />
       <div className={galleryCard}>
-        <h6 className={gallerySlideTitle}>NEED PRAYER</h6>
+        <h6 className={gallerySlideTitle}>REQUEST PRAYER</h6>
         <p className={galleryParagraph}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna
