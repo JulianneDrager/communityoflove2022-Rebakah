@@ -53,7 +53,7 @@ const DesktopHeader = () => {
               href="/tmp/communityoflove2022.com/#cafe"
               className={btnDesktop}
             >
-              GODS GOSPEL CAFE
+              GOD'S GOSPEL CAFE
             </Button>
           </div>
         </Col>
@@ -63,7 +63,7 @@ const DesktopHeader = () => {
               href="/tmp/communityoflove2022.com/#coming-soon"
               className={btnDesktop}
             >
-              COMING SOON
+              FAMILY SERVICES
             </Button>
           </div>
         </Col>
@@ -75,7 +75,7 @@ const DesktopHeader = () => {
               href="/tmp/communityoflove2022.com/#courses"
               className={btnDesktop}
             >
-              COURSES
+              LANGUAGE COURSES
             </Button>
           </div>
         </Col>
@@ -85,7 +85,7 @@ const DesktopHeader = () => {
               href="/tmp/communityoflove2022.com/#quick-links"
               className={btnDesktop}
             >
-              DONATE
+              GIVE/PARTNER
             </Button>
           </div>
         </Col>
@@ -95,7 +95,7 @@ const DesktopHeader = () => {
               href="/tmp/communityoflove2022.com/#quick-links"
               className={btnDesktop}
             >
-              PRAYER/TESTIMONY
+              REQUEST PRAYER
             </Button>
           </div>
         </Col>
