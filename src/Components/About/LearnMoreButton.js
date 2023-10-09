@@ -12,7 +12,7 @@ const RegisterButton = () => {
       <div id="about">
         <Card.Body className={learnMoreCard}>
           <hr style={{ margin: "0", opacity: "0" }}></hr>
-          <Button href="/" className={btn}>
+          <Button href="/tmp/communityoflove2022.com/readmore" className={btn}>
             Read Full Testimony
           </Button>
         </Card.Body>

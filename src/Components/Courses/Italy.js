@@ -1,5 +1,5 @@
 import React from "react";
-import One from "../../images/mobile-courses/italy-icon.png";
+import One from "../../images/mobile-courses/haiti-icon.png";
 import { Button } from "react-bootstrap";
 import CourseStyle from "./Course.module.css";
 
@@ -13,7 +13,7 @@ const Italy = () => {
   return (
     <>
       <div className={divWrapper}>
-        <h6 className={gallerySlideTitle}>ITALIAN</h6>
+        <h6 className={gallerySlideTitle}>Haitian</h6>
         <img className={imgSize} src={One} alt="" />
         <div className={galleryCard}>
           {/* <div className={skyLineBlue}></div> */}

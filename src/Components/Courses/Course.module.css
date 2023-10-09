@@ -97,17 +97,9 @@
     }
 }
 
-@media screen and (min-width: 414px) {
-    .h1Style {
-        font-size: 1.7rem;
-        padding: 1.5rem 0;
-    }
-}
-
 @media screen and (min-width: 736px) {
     .h1Style {
-        padding: 1.5rem 2.5rem;
-        font-size: 2rem;
+        padding: 1.5rem 5.5rem;
     }
     
 }
@@ -121,12 +113,6 @@
         margin: 0;
     }
     
-}
-
-@media screen and (min-width: 800px) {
-    .h1Style {
-        font-size: 2.5rem;
-    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -152,6 +138,6 @@
 
 @media screen and (min-width: 1400px) {
     .h1Style {
-        margin: 0rem 0 0 0;
+        margin: -5rem 0 0 0;
     }  
 }

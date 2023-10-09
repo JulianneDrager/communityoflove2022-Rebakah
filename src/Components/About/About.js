@@ -55,7 +55,7 @@ const About = () => {
                         <>
                           <p className={title}>Welcome to the Community</p>
                           <p className={subTitle}>
-                            Where <em>you</em> matter
+                            Were <em>you </em>mater
                           </p>
                           <div className={divider}></div>
                         </>

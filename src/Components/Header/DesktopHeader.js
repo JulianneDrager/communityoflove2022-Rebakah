@@ -2,8 +2,9 @@ import React from "react";
 import { Button, Col, Row, Image } from "react-bootstrap";
 import HeaderStyle from "./Header.module.css";
 import Logo from "../../images/communityoflovelogo.png";
-import Email from "../../images/mobile-header/email.png";
-import Phone from "../../images/mobile-header/phone.png";
+import facebook from "../../images/mobile-header/facebook.png";
+import Instagram from "../../images/mobile-header/instagram.png";
+import LinkedIn from "../../images/mobile-header/linkedin.png";
 
 const DesktopHeader = () => {
   const btnDesktop = HeaderStyle.btnDesktop;
@@ -15,34 +16,26 @@ const DesktopHeader = () => {
   const prayerTop = HeaderStyle.prayerTop;
   const titleDesktop = HeaderStyle.titleDesktop;
   const titleH2Desktop = HeaderStyle.titleH2Desktop;
-  const headerInfoWrapper = HeaderStyle.headerInfoWrapper;
-  const iconText = HeaderStyle.iconText;
   const colHeaderWrapper = HeaderStyle.colHeaderWrapper;
-  const contactIconWrapper = HeaderStyle.contactIconWrapper;
-
-  const headerInfo = (
-    <>
-      <div className={contactIconWrapper}>
-        <div className={iconText}>
-          PH: 123-456-7890 HRS: 8AM-8PM
-        </div>
-
-        <div className={iconText}>
-          EM: CommunityOfLove70@gmail.com
-        </div>
-      </div>
-    </>
-  );
+  const socialWrapperHeader = HeaderStyle.socialWrapperHeader;
+  const socialIconStyle = HeaderStyle.socialIconStyle;
+  const logoDesktopWrapper = HeaderStyle.logoDesktopWrapper;
 
   return (
     <>
       <Row id="header">
-        <Col className={colHeaderWrapper} >
-          <Image src={Logo} className={LogoStyleDesktop} />
-          <div style={{ display: "flex", flexDirection: "column" }}>
-          <div className={headerInfoWrapper}>{headerInfo}</div>
+        <Col className={colHeaderWrapper}>
+          <div className={logoDesktopWrapper}>
+            <Image src={Logo} className={LogoStyleDesktop} />
+          </div>
+          <div>
             <h1 className={titleDesktop}>Community Of Love</h1>
             <h2 className={titleH2Desktop}>ALL FOR THE GLORY OF GOD</h2>
+            <div className={socialWrapperHeader}>
+              <Image src={facebook} className={socialIconStyle} />
+              <Image src={Instagram} className={socialIconStyle} />
+              <Image src={LinkedIn} className={socialIconStyle} />
+            </div>
           </div>
         </Col>
       </Row>
@@ -75,7 +68,7 @@ const DesktopHeader = () => {
               href="/tmp/communityoflove2022.com/#courses"
               className={btnDesktop}
             >
-              LANGUAGE COURSES
+              FOREIGN LANGUAGE COURSES
             </Button>
           </div>
         </Col>

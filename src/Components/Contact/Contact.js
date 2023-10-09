@@ -61,7 +61,7 @@ const Contact = () => {
                 Connect with the Community
               </Card.Title>
               <Card.Text style={{ color: "white" }}>
-                Please let us know what is on your heart 
+                Please let us know what is on your heart to contact us
               </Card.Text>
             </Row>
 
@@ -115,7 +115,7 @@ const Contact = () => {
               rows={3}
               placeholder="Write your response here"
             />
-            <div style={{textAlign:"left"}}>
+            <div style={{textAlign:"center"}}>
               <Button
                 variant="light"
                 type="submit"

@@ -53,7 +53,7 @@ const Gallery = () => {
         </p>
         <Button
           className={btnGallery}
-          href="/tmp/communityoflove2022.com/#cafe"
+          href="/tmp/communityoflove2022.com/#about"
         >
           LEARN MORE
         </Button>
