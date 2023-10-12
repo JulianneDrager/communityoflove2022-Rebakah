@@ -13,7 +13,7 @@ const Italy = () => {
   return (
     <>
       <div className={divWrapper}>
-        <h6 className={gallerySlideTitle}>Haitian</h6>
+        <h6 className={gallerySlideTitle}>HAITIAN</h6>
         <img className={imgSize} src={One} alt="" />
         <div className={galleryCard}>
           {/* <div className={skyLineBlue}></div> */}

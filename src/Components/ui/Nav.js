@@ -66,7 +66,7 @@ const Navigation = () => {
                 Family Services
               </Nav.Link>
               <Nav.Link href="/tmp/communityoflove2022.com/#courses">
-                Foreign Language Online Courses
+                Foreign Language Courses
               </Nav.Link>
               <Nav.Link href="/tmp/communityoflove2022.com/#quick-links">
                 Give/Partner

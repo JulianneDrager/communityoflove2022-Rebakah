@@ -97,9 +97,24 @@
     }
 }
 
+@media screen and (min-width: 414px) {
+    .h1Style {
+        font-size: 1.7rem;
+        padding: 1.5rem 0rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .h1Style {
+        font-size: 2rem;
+    }
+    
+}
+
 @media screen and (min-width: 736px) {
     .h1Style {
-        padding: 1.5rem 5.5rem;
+        padding: 1.5rem;
+        font-size: 2rem;
     }
     
 }
@@ -107,6 +122,7 @@
 @media screen and (min-width: 768px) {
     .h1Style {
         margin: -5.3rem 0 0 0;
+        font-size: 2.5rem;
     }
 
     .divWrapper {
@@ -115,10 +131,25 @@
     
 }
 
+@media screen and (min-width: 800px) {
+    .h1Style {
+        font-size: 2.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 812px) {
+    .h1Style {
+        padding: 1.5rem;
+        font-size: 2.5rem;
+    }
+    
+}
+
 @media screen and (min-width: 1024px) {
     .h1Style {
         margin: -5.3rem 0 0 0;
-        font-size: 3.3rem;
+        font-size: 3rem;
     }
     
     .galleryCard {

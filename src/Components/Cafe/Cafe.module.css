@@ -99,6 +99,9 @@
         padding: 2rem 3rem;
         font-size: 1.3rem;
     }
+    .h1Style {
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (min-width:736px) {
@@ -231,3 +234,8 @@
     }
 }
 
+@media screen and (min-width:1920px) {
+    .h1Style {
+        font-size: 1.5rem;
+    }
+}

@@ -289,8 +289,8 @@
 
     /* for desktop version --------- */
     .btnDesktop {
-        padding: .5rem 1rem;
-        width: 9rem;
+        padding: 0.5rem 0rem;
+        width: 11rem;
     }
 
     .btnDesktop:hover {

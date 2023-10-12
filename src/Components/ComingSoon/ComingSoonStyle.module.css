@@ -96,12 +96,30 @@
     line-height: 1.5rem;
   }
 
+  .pStyle {
+    font-size: 1.1rem;
+  }
+
+  .comingSoonText {
+    font-size: 1.2rem;
+    margin: 1rem 0 -1.9rem 0;
+  }
+
 }
 
 @media screen and (min-width:414px) {
 
   .h5Style {
     padding: 0 1rem;
+  }
+
+  .pStyle {
+    font-size: 1.1rem;
+  }
+
+  .comingSoonText {
+    font-size: 1.2rem;
+    margin: 1rem 0 -1.9rem 0;
   }
 
   .colStyle,
@@ -142,8 +160,17 @@
 
 @media screen and (min-width:768px) {
   .comingSoonText {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    margin: 0rem 0 -2rem 0;
     color: #091a37;
+  }
+
+  .pStyle {
+    font-size: 1.3rem;
+  }
+
+  .h5Style {
+    padding: 0;
   }
 
   .rowWrapper {
@@ -200,6 +227,36 @@
   }
 }
 
+@media screen and (min-width:800px) {
+  .comingSoonText {
+    margin: 0rem 0 -2rem 0;
+    font-size: 1.7rem;
+  }
+
+  .h5Style {
+    padding: 0;
+  }
+
+  .pStyle {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width:812px) {
+  .comingSoonText {
+    margin: 0rem 0 -1.9rem 0;
+    font-size: 1.7rem;
+  }
+
+  .h5Style {
+    padding: 0;
+  }
+
+  .pStyle {
+    font-size: 1.3rem;
+  }
+}
+
 @media screen and (min-width:992px) {
 .rowWrapper {
   height: 927px;
@@ -214,6 +271,10 @@
 
   .h1Style {
     font-size: 3.3rem;
+  }
+
+  .pStyle {
+    font-size: 1.2rem;
   }
 
   .colStyle {
@@ -237,7 +298,7 @@
   }
 }
 
-@media screen and (min-width:1450px) {
+@media screen and (min-width:1366px) {
 
   .h1Style {
     margin-top: 0;
@@ -245,5 +306,33 @@
 
   .colTitleStyle {
     margin-top: -2rem;
+  }
+}
+
+@media screen and (min-width:1450px) {
+  .comingSoonText {
+    margin: -2rem 0 -1.9rem 0;
+  }
+
+  .h1Style {
+    margin-top: 0;
+  }
+
+  .colTitleStyle {
+    margin-top: -2rem;
+  }
+}
+
+@media screen and (min-width:1920px) {
+  .comingSoonText {
+    margin: 0rem 0 -1.9rem 0;
+  }
+
+  .h5Style {
+    font-size: 2rem;
+  }
+
+  .pStyle {
+    font-size: 1.4rem;
   }
 }

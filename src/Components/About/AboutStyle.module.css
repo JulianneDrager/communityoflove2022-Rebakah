@@ -64,9 +64,21 @@
   }
 }
 
+@media screen and (min-width:375px) {
+  .title {
+    font-size: 1.1rem;
+  }
+}
+
 @media screen and (min-width:400px) {
   .subTitle {
     font-size: 3rem;
+  }
+}
+
+@media screen and (min-width:414px) {
+  .title {
+    font-size: 1.2rem;
   }
 }
 
@@ -87,11 +99,25 @@
   .cardWrapper {
     margin-top: 0rem ;
   }
+
+  .title {
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (min-width:667px) {
   .cardWrapper {
     margin-top: -11rem ;
+  }
+}
+
+@media screen and (min-width:736px) {
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .cardWrapper {
+    margin-top: -7rem ;
   }
 }
 
@@ -143,4 +169,35 @@
     width: 50%;
   }
 
+}
+
+@media screen and (min-width:1024px) {
+  .aboutParagraph {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width:1366px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .subTitle {
+    font-size: 4.7rem;
+  }
+  
+  .aboutParagraph {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (min-width:1920px) {
+  .aboutParagraph {
+    padding: 1.5rem 2rem 1.5rem 3rem;
+  }
+
+  .subTitle{
+    padding: 0.5rem 0 0.5rem 0;
+  }
 }
