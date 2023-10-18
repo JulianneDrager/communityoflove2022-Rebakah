@@ -55,13 +55,13 @@ const About = () => {
                         <>
                           <p className={title}>Welcome to the Community</p>
                           <p className={subTitle}>
-                            Where <em>you</em> matter
+                            Where <em>you </em>matter
                           </p>
                           <div className={divider}></div>
                         </>
                       )}
                       <span
-                        style={{ fontSize: "1.5rem", lineHeight: "1.5rem" }}
+                        style={{ fontSize: "1.7rem", lineHeight: "1.5rem" }}
                       >
                         Hello my name is Sharon Chatman the Founder/CEO of
                         Community of Love.

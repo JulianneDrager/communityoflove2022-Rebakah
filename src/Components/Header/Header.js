@@ -11,49 +11,7 @@ const Header = () => {
   const header = HeaderStyle.header;
   const LogoStyle = HeaderStyle.LogoStyle;
   const titleH1Mobile = HeaderStyle.titleH1Mobile;
-  const btnMobile = HeaderStyle.btnMobile;
   const logoWrapper = HeaderStyle.logoWrapper;
-  const slash = <span style={{ color: "#c3c3c3" }}>|</span>;
-
-  const headerNav = (
-    <Col>
-      <Button
-        href="/tmp/communityoflove2022.com/#cafe"
-        style={{ width: "127px" }}
-        className={btnMobile}
-      >
-        {slash} GOD'S GOSPEL CAFE {slash}
-      </Button>
-      <Button
-        href="/tmp/communityoflove2022.com/#coming-soon"
-        style={{ width: "97px" }}
-        className={btnMobile}
-      >
-        COMING SOON {slash}
-      </Button>
-      <Button
-        href="/tmp/communityoflove2022.com/#courses"
-        style={{ width: "101px" }}
-        className={btnMobile}
-      >
-        LANGUAGE COURSES
-      </Button>
-      <Button
-        href="/tmp/communityoflove2022.com/#quick-links"
-        style={{ width: "32px" }}
-        className={btnMobile}
-      >
-        {slash} GIVE
-      </Button>
-      <Button
-        href="/tmp/communityoflove2022.com/#quick-links"
-        style={{ width: "116px" }}
-        className={btnMobile}
-      >
-        {slash} REQUEST PRAYER {slash}
-      </Button>
-    </Col>
-  );
 
   return (
     <>
@@ -63,14 +21,15 @@ const Header = () => {
             <div className={logoWrapper}>
               <Image src={Logo} className={LogoStyle} />
             </div>
-           
+
             <h1 className={titleH1Mobile}>
               Community <br /> <b style={{ color: "#ad1f37" }}>of Love</b>
             </h1>
           </div>
-
+          {/* mobile view */}
           <div style={{ marginTop: "-7rem" }}>{matchesLg && <Gallery />}</div>
         </>
+        // desktop view
       )}
       {!matchesLg && <DesktopHeader />}
     </>

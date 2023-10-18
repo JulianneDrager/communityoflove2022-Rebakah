@@ -12,7 +12,8 @@
     margin: 0 .5rem 1.7rem .5rem;
 }
 
-.h1Title {
+.h1Title,
+.h2Title {
     font-family: "EB Garamond";
     text-align: center;
     color: #a98519;
@@ -22,6 +23,12 @@
     padding: 1.2rem;
     margin-top: 1.5rem;
     text-shadow: 0px 0px 2px #00000030;
+}
+
+.h2Title {
+    margin-top: -1rem;
+    padding: 0;
+    font-size: 1.5rem;
 }
 
 .pStyle {
@@ -72,20 +79,14 @@
 
     .h1Title {
         text-align: left;
-        font-size: 2.3rem;
-        margin-bottom: 0;
+        font-size: 2.44rem;
+        margin-bottom: .5;
         padding-bottom: 0;
     }
 
-    .h1Title::after {
-        content: "";
-        display: block;
-        width: 22rem;
-        height: 3vh;
-        background-color: black;
-        position: relative;
-        right: -329px;
-        top: -1.8rem;
+    .h2Title {
+        text-align: left;
+        margin: 0.2rem 0 0 1.3rem;
     }
 
     .rowStyle {
@@ -96,19 +97,8 @@
     .pStyle {
         text-align: left;
         width: 100%;
-        margin-top: -1rem;
-        font-size: small;
-    }
-
-    .pStyle::after {
-        content: "";
-        display: block;
-        width: 22rem;
-        height: 3vh;
-        background-color: black;
-        position: relative;
-        left: -2.3rem;
-        top: 1rem;
+        font-size: 1rem;
+        padding-right: 0;
     }
 
     .btnWrapper {
@@ -117,29 +107,19 @@
 
 }
 
-@media screen and (min-width: 1024px) {
-   .h1Title {
-    font-size: 3.3rem;
-   }
-   
-    .h1Title::after {
-        width: 37rem;
+@media screen and (min-width:1024px) {
+    .h1Title {
+        font-size: 3rem;
     }
 
+    .pStyle {
+        font-size: 1.1rem;
+    }
 }
 
-@media screen and (min-width: 1200px) {
-    .h1Title::after {
-        width: 48.3rem;
-    }
-    .pStyle::after {
-        width: 32rem
+@media screen and (min-width:1200px) {
+    .pStyle {
+        font-size: 1.1rem;
+        margin-top: 1.1rem;
     }
 }
-    
-    @media screen and (min-width: 1400px) {
-        .h1Title::after {
-            width: 59.55rem;
-        }
-
-    }

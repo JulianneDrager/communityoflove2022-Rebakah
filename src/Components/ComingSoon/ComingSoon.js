@@ -3,9 +3,8 @@ import { Card, Container, Image, Col, Row } from "react-bootstrap";
 // import MenuStyle from "../PrayerAndTestimony/PrayerStyle.module.css";
 import EmployeeIcon from "../../images/mobile-coming-soon/employee-icon.png";
 import EmployerIcon from "../../images/mobile-coming-soon/employeer-icon.png";
-import ServiceFlyer from "../../images/mobile-coming-soon/mobile-services-flyer.png"
-import DesktopServiceFlyer from "../../images/desktop-coming-soon/services-flyer.png"
-import PetIcon from "../../images/mobile-coming-soon/pet-icon.png";
+import ServiceFlyer from "../../images/mobile-coming-soon/mobile-services-flyer.png";
+import DesktopServiceFlyer from "../../images/desktop-coming-soon/services-flyer.png";
 import DividerRight from "../Divider/DividerRight";
 import ComingSoonStyle from "./ComingSoonStyle.module.css";
 import { useMediaQuery } from "@mui/material";
@@ -13,7 +12,6 @@ import { useMediaQuery } from "@mui/material";
 const VenderSection = () => {
   const EmpIconStyle = ComingSoonStyle.EmpIconStyle;
   const EmprIconStyle = ComingSoonStyle.EmprIconStyle;
-  const PetIconStyle = ComingSoonStyle.PetIconStyle;
   const rowWrapper = ComingSoonStyle.rowWrapper;
   const divWrapper = ComingSoonStyle.divWrapper;
   const comingSoonText = ComingSoonStyle.comingSoonText;
@@ -21,13 +19,12 @@ const VenderSection = () => {
   const h5Style = ComingSoonStyle.h5Style;
   const colStyle = ComingSoonStyle.colStyle;
   const colTitleStyle = ComingSoonStyle.colTitleStyle;
-  const petColStyle = ComingSoonStyle.petColStyle;
   const servColStyle = ComingSoonStyle.servColStyle;
   const pStyle = ComingSoonStyle.pStyle;
   const flyer = ComingSoonStyle.flyer;
   const rowWrapperTop = ComingSoonStyle.rowWrapperTop;
   const servParWrapper = ComingSoonStyle.servParWrapper;
-  const matchesLg = useMediaQuery("(min-width:765px)")
+  const matchesLg = useMediaQuery("(min-width:765px)");
 
   return (
     <>
@@ -40,7 +37,7 @@ const VenderSection = () => {
         </Row>
         <Row className={rowWrapper}>
           <div className={divWrapper}>
-            <Col xs={12} md={4} className={colStyle}>
+            <Col xs={12} sm={12} md={6} lg={6} className={colStyle}>
               <Image
                 className={EmpIconStyle}
                 src={EmployeeIcon}
@@ -52,9 +49,7 @@ const VenderSection = () => {
               </p>
             </Col>
             <Col
-              xs={12}
-              md={4}
-              style={{ marginTop: "1rem" }}
+              xs={12} sm={12} md={6} lg={6}
               className={colStyle}
             >
               <Image
@@ -70,15 +65,16 @@ const VenderSection = () => {
             <Col
               xs={12}
               md={12}
-              style={{ marginTop: "1rem" }}
               className={servColStyle}
             >
               <h5 className={h5Style}>
                 Community of Love Family Services will Include The Following:
               </h5>
               <div className={servParWrapper}>
-               { !matchesLg && <Image src={ServiceFlyer} className={flyer}/>}
-               { matchesLg && <Image src={DesktopServiceFlyer} className={flyer}/>}
+                {!matchesLg && <Image src={ServiceFlyer} className={flyer} />}
+                {matchesLg && (
+                  <Image src={DesktopServiceFlyer} className={flyer} />
+                )}
 
                 {/* <p className={pStyle2a}>Sitter/Childcare Services</p>
                 <p className={pStyle2}>Tutoring Services</p>

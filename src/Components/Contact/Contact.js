@@ -115,7 +115,7 @@ const Contact = () => {
               rows={3}
               placeholder="Write your response here"
             />
-            <div style={{textAlign:"left"}}>
+            <div style={{textAlign:"center"}}>
               <Button
                 variant="light"
                 type="submit"
