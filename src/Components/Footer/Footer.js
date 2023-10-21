@@ -1,6 +1,6 @@
 import React from "react";
-import { Card, Container } from "react-bootstrap";
-import ContactStyle from "../Contact/Contact.module.css";
+import { Card } from "react-bootstrap";
+import ContactStyle from "../Community of Love/Contact/Contact.module.css";
 
 const Footer = () => {
   const footer = ContactStyle.footer;

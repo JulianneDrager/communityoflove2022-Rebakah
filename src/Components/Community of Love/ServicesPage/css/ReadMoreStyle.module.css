@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.testimonialheader {
+    background-image: url("../../../../../images/mobile-testimony/testimony-header.jpg");
+    background-size: cover;
+    border: 2px solid #BD742C;
+    height: 180px;
+}
+
+.headContainer {
+    text-align: center;
+    padding: 1.4em .5em;
+}
+
+.mainConStyle {
+    width: 100%;
+    background-image: url("../../../../../images/mobile-testimony/mobile-testimony-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #273D65;
+}
+
+.gradientWrapper {
+    padding: 1rem 0;
+    background: linear-gradient(99deg, rgb(258 255 255) 18%, rgba(255, 255, 255, -1) 108%, rgba(2, 0, 36, 3) 38%);
+}
+
+.secondaryMainContainer {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headContainerh1 {
+    font-family: "Merriweather";
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+.boldText {
+    font-family: EB Garamond;
+    font-size: 2.4rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.pStyle {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    text-align: center;
+    /* padding: 1em 0; */
+}
+
+.cardsConStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.btn {
+    color: white;
+    font-family: arial;
+    background-color: #a98519;
+    border-radius: 0;
+    border: none;
+    width: 100%;
+    transition: .5s;
+    padding: .8rem 5rem;
+}
+
+.btn:hover {
+    background-color: black;
+    border: none;
+    color: white;
+    transform: scale(80%);
+    box-shadow: none;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.286);
+}
+
+@media screen and (min-width:550px) {
+    .testimonialheader {
+        height: 230px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .gradientWrapper {
+        padding: 2rem 0;
+    }
+
+    .boldText {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width:710px) {
+    .testimonialheader {
+        height: 320px;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+
+    .mainConStyle {
+        background-image: url("../../../../../images/mobile-testimony/desktop-testimony-background-optimized.jpg");
+    }
+
+    .pStyle {
+        text-align: center;
+    }
+
+    .headContainerh1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .boldText {
+        font-size: 4rem;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .cardsConStyle {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .mainConStyle,
+    .gradientWrapper {
+        height: 173vh;
+    }
+
+    .testimonialheader {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width:1300px) {
+
+    .testimonialheader {
+        height: 500px;
+
+    }
+}

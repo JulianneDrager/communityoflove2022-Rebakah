@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+.rowBoardStyle {
+    background-color: #17428de6;
+    margin: 0;
+    border-radius: 0.5rem;
+}
+
+.rowWrapper {
+    text-align: center;
+}
+
+.goldBar {
+    background-color: #a98519;
+    height: 1rem;
+}
+
+.mainWrapper {
+    background-color: white;
+    background-size: 100% 100%;
+    background-image: url("../../../../ggcf-images/mobile-board/mobile-background-board.png");
+    padding: 38px 2rem;
+}
+
+.boardTitleStyle {
+    width: 94%;
+    height: auto;
+    margin: 0 0 1rem 0;
+}
+
+@media screen and (min-width:600px) {
+    .boardTitleStyle {
+        width: 100%;
+    }
+
+    .goldBar {
+        height: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .rowBoardStyle {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: transparent;
+    }
+
+    .goldBar {
+        height: 2rem;
+    }
+}
+
+@media screen and (min-width:990px) {
+    .mainWrapper {
+        padding: 38px 8rem;
+    }
+}
+
+@media screen and (min-width:1022px) {
+    .rowBoardStyle {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .goldBar {
+        height: 2rem;
+        background-color: transparent;
+    }
+
+    .boardTitleStyle {
+        width: 87%;
+    }
+
+    .mainWrapper {
+        padding: 54px 4rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .boardTitleStyle {
+        width: 89%;
+    }
+
+    .rowBoardStyle {
+        gap: 0
+    }
+
+    .mainWrapper {
+        padding: 54px 9rem;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    /* .pStyle {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 50rem;
+    }
+
+    .handsImgStyle {
+        width: 21rem;
+    }
+
+    .divWrapper {
+        margin: -0.8rem 0 0 2rem;
+    }  */
+}

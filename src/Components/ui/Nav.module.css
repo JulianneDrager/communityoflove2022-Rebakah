@@ -1,6 +1,10 @@
 .navBar {
     background-color: #112a54 ;
 }
+
+.navBar2 {
+    margin-top: 2.5rem;
+}
 .navBarBrand {
     color: #353535;
 }

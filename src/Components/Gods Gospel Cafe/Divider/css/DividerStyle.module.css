@@ -1,0 +1,25 @@
+.divider {
+  display: block;
+  background-image: url("../../../../ggcf-images/mobile-our-story/mobile-our-story-divider.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 7vh;
+  margin: -34px .55rem;
+  position: relative;
+  top: -10px;
+
+}
+
+@media screen and (min-width:600px) {
+  .divider {
+    height: 7vh;
+    margin: -34px .55rem;
+    position: relative;
+    top: -1px;
+    left: 3rem;
+  }
+
+  .divider {
+    display: none;
+  }
+}

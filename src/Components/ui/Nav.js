@@ -3,7 +3,7 @@ import "../style.css";
 import { Nav } from "react-bootstrap";
 import { Navbar } from "react-bootstrap";
 import { Container } from "react-bootstrap";
-import HeaderStyle from "../Header/Header.module.css";
+import HeaderStyle from "../Community of Love/Header/css/Header.module.css";
 import NavStyle from "./Nav.module.css";
 import { useMediaQuery } from "@mui/material";
 
@@ -66,7 +66,7 @@ const Navigation = () => {
                 Family Services
               </Nav.Link>
               <Nav.Link href="/tmp/communityoflove2022.com/#courses">
-                Foreign Language Courses
+                Foreign Language Online Courses
               </Nav.Link>
               <Nav.Link href="/tmp/communityoflove2022.com/#quick-links">
                 Give/Partner

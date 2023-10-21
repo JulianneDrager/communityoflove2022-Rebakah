@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.pStyle {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem .5rem .5rem .5rem;
+    background-color: #ffffff73;
+    border-radius: .3rem;
+    line-height: 1.3rem;
+}
+
+.hrStyle {
+    border: 1px;
+    margin: 0 0 .8rem 0;
+}
+
+.ourStoryContent {
+    background-image: url("../../../../ggcf-images/mobile-our-story/mobile-our-story-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgSize {
+    width: 15rem;
+}
+
+.divWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    color: white;
+    font-family: arial;
+    background-color: #a98519;
+    border-radius: 0;
+    border: none;
+    width: 80%;
+    margin-top: .5rem;
+    transition: .5s;
+    padding: 1rem 0;
+}
+
+.btn:hover {
+    background-color: #d1b918;
+    border: none;
+    color: white;
+    transform: scale(80%);
+    box-shadow: none;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.286);
+}
+
+
+@media screen and (min-width:372px) {
+    .pStyle {
+        margin: 1rem 1.5rem .5rem 1.5rem;
+    }
+
+    .imgSize {
+        width: 18rem;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .ourStoryContent {
+        margin: 0;
+    }
+
+    .hrStyle {
+        border: 1px;
+        margin: 0 0 1rem 0;
+    }
+
+    .pStyle {
+        margin: 1rem 1rem .5rem 1rem;
+        padding: 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    .imgSize {
+        width: 22rem;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .ourStoryContent {
+        background-image: url("../../../../ggcf-images/mobile-our-story/mobile-our-story-background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .imgSize {
+        width: 26rem;
+    }
+
+    .pStyle {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media screen and (min-width:1022px) {
+    .rowBackground {
+        background: url("../../../../ggcf-images/desktop-our-story/desktop-our-story-background.png") no-repeat;
+        background-size: cover;
+        padding-bottom: 2rem;
+        margin: 0 -10px 0 0;
+    }
+
+    .handsImgStyle {
+        width: 16rem;
+    }
+
+    .handsImgCol {
+        text-align: right;
+        margin: 2rem 0 0 0;
+        height: 1rem;
+    }
+
+    .titleStyle {
+        width: 24rem;
+
+    }
+
+    .pStyle {
+        padding: 4rem 1.5rem 4rem 1.5rem;
+        margin: -3rem 1rem .5rem 1rem;
+        background-color: transparent;
+        padding: 1.5rem;
+        width: 40rem;
+
+    }
+
+    .divWrapper {
+        margin-top: 6.2rem;
+    }
+
+    .btn {
+        width: 16rem;
+
+    }
+}
+
+@media screen and (min-width:1200px) {
+    /* .pStyle {
+        font-size: 1.1rem;
+    }
+
+    .titleStyle {
+        width: 32rem;
+    }
+
+    .handsImgStyle {
+        width: 18rem;
+    }
+
+    .divWrapper {
+        margin: -9.8rem 0 0 2rem;
+    } */
+}
+
+@media screen and (min-width:1400px) {
+    /* .pStyle {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 50rem;
+    }
+
+    .handsImgStyle {
+        width: 21rem;
+    }
+
+    .divWrapper {
+        margin: -0.8rem 0 0 2rem;
+    }  */
+}
