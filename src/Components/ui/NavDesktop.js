@@ -1,7 +1,7 @@
 import React from "react";
 import "../style.css";
 import { Navbar } from "react-bootstrap";
-import HeaderStyle from "../Header/Header.module.css";
+import HeaderStyle from "../Community of Love/Header/css/Header.module.css";
 import NavStyle from "./Nav.module.css";
 
 const Navigation = () => {
@@ -9,8 +9,6 @@ const Navigation = () => {
   const headerInfoWrapper = HeaderStyle.headerInfoWrapper;
   const iconText = HeaderStyle.iconText;
   const contactIconWrapper = HeaderStyle.contactIconWrapper;
-  const socialIconStyle = HeaderStyle.socialIconStyle;
-  const socialMediaWrapper = HeaderStyle.socialMediaWrapper;
 
   const headerInfo = (
     <>

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.cardBody,
+.frame {
+  padding: .33rem;
+  background-image: url("../../../../ggcf-images//mobile-faith-and-action/mobile-picture-frame-faith-and-action.png");
+  background-size: 100% 100%;
+}
+
+.frame {
+  background-image: none;
+}
+
+.cardWrapper {
+  background-color: #102a57;
+  border: none;
+  border-radius: 0;
+  padding: 2.3rem .5rem 0 .5rem;
+  background-image: url("../../../../ggcf-images/mobile-faith-and-action/mobile-background-faith-and-action.jpg");
+  padding: 2.3rem .5rem 22px .5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgSize {
+  width: 100%;
+  height: auto;
+}
+
+.goldBar {
+  background-color: #a98519;
+  height: 1rem;
+}
+
+.fathTitleStyle {
+  padding: .5rem 0 .3rem 0;
+  width: 94%;
+}
+
+.innerCardWrapper {
+  text-align: center;
+}
+
+@media screen and (min-width:600px) {
+  .fathTitleStyle {
+    width: 72%;
+  }
+}
+
+
+@media screen and (min-width:768px) {
+  .imgSize {
+    width: 94%;
+  }
+  .cardWrapper {
+    background-image: url("../../../../ggcf-images/desktop-faith-and-action/desktop-faith-and-action-background.png");
+    padding: 2.3rem 0 22px 0;
+  }
+
+  .cardBody{
+    background-image: none;
+  }
+
+  .frame{
+    background-image: url("../../../../ggcf-images//mobile-faith-and-action/mobile-picture-frame-faith-and-action.png");
+    padding: .7rem 0;
+    margin: .5rem;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .fathTitleStyle{
+    width: 60%;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .fathTitleStyle{
+    width: 53%;
+  }
+}

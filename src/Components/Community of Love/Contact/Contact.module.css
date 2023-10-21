@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+.email,
+.name,
+.address,
+.address2,
+.city,
+.state,
+.zip,
+.textarea {
+  padding: 0 0.3rem;
+  margin: 0.3rem 0;
+}
+
+.footer,
+.footerScreen {
+  color: black;
+  width: 100%;
+  font-size: .8rem;
+  text-align: center;
+  padding: .5rem 0;
+  background-color: #a98519;
+  margin-top: 5vh;
+}
+
+.contactTitle {
+  font-size: 2rem;
+  line-height: 1.8rem;
+  font-family: "EB Garamond";
+  color: #a98519;
+  margin-bottom: .9rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.contact {
+  font-size: 1.22rem;
+  color: white;
+  font-family: "Antonio";
+  margin: 0 0 .9rem 0rem;
+}
+
+.name,
+.message,
+.phone {
+  border-radius: 0;
+  padding: .1rem .5rem;
+}
+
+.labelForm {
+  margin-top: 1rem;
+  margin-bottom: .2rem;
+  color: white;
+}
+
+.formStyle {
+  background-color: #091a37;
+  background-size: cover;
+  /* margin: -5rem .44rem; */
+  margin: -1rem .44rem;
+}
+
+.btn{
+  color: white;
+  font-family: arial;
+  background-color: #a98519 !important;
+  border-radius: 0;
+  border: none;
+  width: 70% !important;
+  transition: .5s;
+  padding: 1rem 0rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.btn:hover {
+  background-color: #d1b918 !important;
+  border: none;
+  color: white;
+  transform: scale(80%);
+  box-shadow: none;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.286);
+}
+
+@media screen and (min-width: 375px) {
+  .contact {
+    font-size: 1.4rem;
+  }
+
+  .contactTitle{
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    width: 75%;
+  }
+
+  /* .footerScreen {
+    margin: 1rem .6rem;
+    width: 94.9%;
+  } */
+}
+
+@media screen and (min-width: 600px) {
+  .contact {
+    font-size: 2rem;
+  }
+  /* .footerScreen {width: 96.5%;} */
+}
+
+@media screen and (min-width: 600px) {
+  .contact {
+    font-size: 2rem;
+  }
+  .footerScreen {width: 97.2%; margin: 0 .47rem}
+}
+
+@media screen and (min-width: 736px) {
+  .contactTitle{
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .formStyle {
+    margin: 0 0 1.5rem .0;
+  }
+
+  .btn {
+    width: 33% !important;
+    padding: 1rem 0;
+  }
+
+  .footer {
+    margin: 15vh 0 0 0;
+  }
+
+  .footerScreen {
+    width: 99.6%;
+    margin: -1.5rem .1rem 0 .1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .formStyle {
+    margin: 0 0 1.5rem .0;
+  }
+
+  .btn {
+    width: 15rem;
+    padding: 1rem 0;
+  }
+
+  .contactTitle{
+    font-size: 3.3rem;
+  }
+
+  .footer {
+    margin: 25vh 0 0 0;
+  }
+
+  .footerScreen {
+    width: 99.8%;
+    margin: -1.5rem .1rem 0 .1rem;
+  }
+}

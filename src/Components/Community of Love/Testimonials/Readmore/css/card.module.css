@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    border: 2px solid #BD742C;
+    padding: 1em;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-style: italic;
+    background: linear-gradient(99deg, rgb(258 255 255) 18%, rgba(255, 255, 255, -1) 108%, rgba(2, 0, 36, 3) 38%);
+
+}
+.cardh2{
+    font-family: "EB Garamond";
+    color:#BD742C;
+    font-size: 1.5rem;
+    font-style: normal
+}
+
+@media screen and (min-width: 1024px) {
+    .cardContainer {
+        width: 100%;
+    }
+
+}

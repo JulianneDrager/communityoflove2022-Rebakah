@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.email,
+.name,
+.address,
+.address2,
+.city,
+.state,
+.zip,
+.textarea {
+  padding: 0 0.3rem;
+  margin: 0.3rem 0;
+}
+
+.error {
+  fill: #ffd23b;
+  width: 24px;
+  height: 21px;
+}
+
+.namePhoto,
+.name,
+.emailPhoto,
+.email,
+.phoneNumberPhoto,
+.phone {
+  height: 2rem;
+  margin: -.5rem 0 .4rem 0;
+  background-color: rgba(255, 255, 255, 0.66);
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0% !important;
+}
+
+.form {
+  padding: 1rem;
+}
+
+.contact {
+  background-image: url("../../../../images/desktop-header/prayer.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.contactTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  font-family: "EB Garamond";
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  color: white;
+  font-family: arial;
+  background-color: #a98519;
+  border-radius: 0;
+  border: none;
+  width: 50%;
+  margin-top: .5rem;
+  transition: .5s;
+  padding: .5rem 0;
+}
+
+.btn:hover {
+  background-color: black;
+  border: none;
+  color: white;
+  transform: scale(80%);
+  box-shadow: none;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.286);
+}
+
+.subTitle {
+  font-weight: 700;
+}
+
+.subText {
+  font-size: 1rem;
+}
+
+.h5Style {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.footer {
+  font-size: .85rem;
+  text-align: center;
+  color: white;
+  background-color: #162c52;
+  padding: .5rem 0;
+}
+
+
+@media screen and (min-width: 600px) {
+
+  .interestedInTitle {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+  }
+
+  .btn {
+    width: 14rem;
+  }
+
+  .subTitle {
+    font-size: 2rem;
+  }
+
+  .subText {
+    font-size: 1rem;
+  }
+
+}
+
+@media screen and (min-width: 738px) {
+.contact {
+  height: 350px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .contact {
+    height: 500px;
+  }
+  }
