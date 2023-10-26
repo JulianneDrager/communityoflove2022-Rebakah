@@ -3,15 +3,13 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 import SlideOne from "./SlideOne"; //Sharon Intro
-import SlideTwo from "./SlideTwo";  //Gods Gospel cafe
+import SlideOneA from "./SlideOneA"; //Board Intro
+import SlideTwo from "./SlideTwo"; //Gods Gospel cafe
 import SlideThree from "./SlideThree"; //Coming soon
 import SlideFour from "./SlideFour"; //Foreign language
-import SlideFive from "./SlideFive"; //Give/sow 
-import SlideSix from "./SlideSix"; //Request prayer
-
+import SlideFive from "./SlideFive"; //Give/sow
 
 const Gallery = () => {
-
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -37,7 +35,7 @@ const Gallery = () => {
       showDots={false}
       responsive={responsive}
       infinite={true}
-      autoPlay="true"
+      autoPlay={false}
       autoPlaySpeed={6000}
       showThumbs={false}
       showArrows={false}
@@ -45,14 +43,25 @@ const Gallery = () => {
       showIndicators={false}
       animationHandler="fade"
     >
-      <div><SlideOne/></div> 
-      <div><SlideTwo/></div>
-      <div><SlideThree/></div>
-      <div><SlideFour/></div>
-      <div><SlideFive/></div>
-      <div><SlideSix/></div> 
+      <div>
+        <SlideOne />
+      </div>
+      <div>
+        <SlideOneA />
+      </div>
+      <div>
+        <SlideTwo />
+      </div>
+      <div>
+        <SlideThree />
+      </div>
+      <div>
+        <SlideFour />
+      </div>
+      <div>
+        <SlideFive />
+      </div>
     </Carousel>
-
   );
 };
 export default Gallery;

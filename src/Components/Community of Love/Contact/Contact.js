@@ -32,7 +32,7 @@ const Contact = () => {
         (result) => {
           //   alert("Message successfully sent!");
           navigate(
-            `/tmp/jermainekee.com/thankyou/${refForm.current.name.value}`
+            `/tmp/communityoflove2022/thankyou/${refForm.current.name.value}`
           );
           // window.location.reload(false);
           console.log("result", result);

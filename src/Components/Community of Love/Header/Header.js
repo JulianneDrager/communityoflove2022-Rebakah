@@ -5,13 +5,18 @@ import Gallery from "./Moble Slides/Gallery"; //mobile
 import DesktopHeader from "./DesktopHeader";
 import useMediaQuery from "../../UseMediaQuery";
 import Logo from "../../../images/communityoflovelogo.png";
+// import clearLine from "../../../images/mobile-header/clear-line.png";
+
 
 const Header = () => {
-  const matchedSm = useMediaQuery("(max-width: 765px)");
+  const matchedSm = useMediaQuery("(max-width: 766px)");
+  const matchedmW568 = useMediaQuery("(min-width: 568px)");
+
   const header = HeaderStyle.header;
   const LogoStyle = HeaderStyle.LogoStyle;
   const titleH1Mobile = HeaderStyle.titleH1Mobile;
   const logoWrapper = HeaderStyle.logoWrapper;
+  
 
   return (
     <>
@@ -24,14 +29,16 @@ const Header = () => {
             </div>
 
             <h1 className={titleH1Mobile}>
-              Community <br />
-              <b style={{ color: "#ad1f37" }}>of Love</b>
+              Community 
+              { !matchedmW568 && <br />}
+              <b style={{ color: "#ad1f37" }}> of Love</b>
             </h1>
           </div>
 
           {/* mobile view */}
           <div style={{ marginTop: "-7rem" }}>
             <Gallery />
+            {/* <Image src={clearLine}  style={{backgroundColor:"pink"}}/> */}
           </div>
         </>
       )}

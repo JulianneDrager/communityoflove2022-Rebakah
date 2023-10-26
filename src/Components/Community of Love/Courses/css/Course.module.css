@@ -29,7 +29,11 @@
     border: none;
     width: 80%;
     transition: .5s;
-    padding: 1rem 0;
+    padding: .5rem 0;
+}
+
+.btnPadding {
+    padding: 1.8rem;
 }
 
 .btn:hover {
@@ -39,6 +43,10 @@
     transform: scale(80%);
     box-shadow: none;
     box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.286);
+}
+
+.btnColor {
+    background-color:#7d6316;
 }
 
 
@@ -52,7 +60,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding-bottom: 3.5rem;
+    padding-bottom: 4.5rem;
     margin: 0 .5rem;
 }
 
@@ -92,9 +100,6 @@
     .h1Style {
         line-height: 2.1rem;
     }
-    .divWrapper {
-        padding-bottom: 8.5rem;
-    }
 }
 
 
@@ -110,6 +115,10 @@
         font-size: 2rem;
     }
 
+    .galleryCard p {
+        font-size: 1rem;
+    }
+
 }
 
 @media screen and (min-width: 736px) {
@@ -117,8 +126,13 @@
         /* padding: 1.5rem 5.5rem; */
         padding: 1.5rem;
         font-size: 2rem;
+    }  
+}
+
+@media screen and (min-width: 768px) {
+    .galleryCard p {
+        font-size: .89rem;
     }
-    
 }
 
 @media screen and (min-width: 800px) {
@@ -145,10 +159,17 @@
     .divWrapper {
         margin: 0;
     }
+
+    .btn {
+        padding: .88rem 0;
+    }
+    .btnPadding {
+        padding: 2.65rem 1.2rem;
+    }
     
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) {
     .h1Style {
         margin: -5.3rem 0 0 0;
         font-size: 3rem;
@@ -156,6 +177,9 @@
     
     .galleryCard {
         margin: 1rem 1.2rem -50px 1.2rem;
+    }
+    .galleryCard p {
+        font-size: 1.1rem;
     }
 
     .divWrapper{

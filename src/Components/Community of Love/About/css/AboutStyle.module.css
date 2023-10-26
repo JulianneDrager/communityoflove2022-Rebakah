@@ -26,8 +26,8 @@
   background-color: #102a57;
   border-radius: 0;
   border: none;
-  padding: 2.3rem .5rem 0 .5rem;
-  margin-top: -10rem;
+  padding: 0 .5rem;
+  margin-top: -12rem;
 }
 
 .innerCardWrapper {
@@ -60,7 +60,7 @@
 
 @media screen and (min-width:360px) {
   .cardWrapper {
-    margin-top: -8rem;
+    margin-top: -10rem;
   }
 }
 
@@ -109,9 +109,9 @@
 }
 
 @media screen and (min-width:667px) {
-  .cardWrapper {
+  /* .cardWrapper {
     margin-top: -11rem ;
-  }
+  } */
 }
 
 @media screen and (min-width:736px) {

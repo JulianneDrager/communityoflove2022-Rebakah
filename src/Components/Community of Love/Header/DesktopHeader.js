@@ -1,25 +1,25 @@
 import React from "react";
 import { Button, Col, Row, Image } from "react-bootstrap";
-import HeaderStyle from "./css/Header.module.css";
+import DtHeaderStyle from "./css/DtHeader.module.css";
 import Logo from "../../../images/communityoflovelogo.png";
 import facebook from "../../../images/mobile-header/facebook.png";
 import Instagram from "../../../images/mobile-header/instagram.png";
 import LinkedIn from "../../../images/mobile-header/linkedin.png";
 
 const DesktopHeader = () => {
-  const btnDesktop = HeaderStyle.btnDesktop;
-  const LogoStyleDesktop = HeaderStyle.LogoStyleDesktop;
-  const outreach = HeaderStyle.outreach;
-  const comingSoon = HeaderStyle.comingSoon;
-  const onlineCourses = HeaderStyle.onlineCourses;
-  const donateTop = HeaderStyle.donateTop;
-  const prayerTop = HeaderStyle.prayerTop;
-  const titleDesktop = HeaderStyle.titleDesktop;
-  const titleH2Desktop = HeaderStyle.titleH2Desktop;
-  const colHeaderWrapper = HeaderStyle.colHeaderWrapper;
-  const socialWrapperHeader = HeaderStyle.socialWrapperHeader;
-  const socialIconStyle = HeaderStyle.socialIconStyle;
-  const logoDesktopWrapper = HeaderStyle.logoDesktopWrapper;
+  const btnDesktop = DtHeaderStyle.btnDesktop;
+  const LogoStyleDesktop = DtHeaderStyle.LogoStyleDesktop;
+  const logoDesktopWrapper = DtHeaderStyle.logoDesktopWrapper;
+  const socialIconStyle = DtHeaderStyle.socialIconStyle;
+  const socialWrapperHeader = DtHeaderStyle.socialWrapperHeader;
+  const titleDesktop = DtHeaderStyle.titleDesktop;
+  const titleH2Desktop = DtHeaderStyle.titleH2Desktop;
+  const colHeaderWrapper = DtHeaderStyle.colHeaderWrapper;
+  const outreach = DtHeaderStyle.outreach;
+  const comingSoon = DtHeaderStyle.comingSoon;
+  const onlineCourses = DtHeaderStyle.onlineCourses;
+  const donateTop = DtHeaderStyle.donateTop;
+  const prayerTop = DtHeaderStyle.prayerTop;
 
   return (
     <>
@@ -40,7 +40,7 @@ const DesktopHeader = () => {
         </Col>
       </Row>
       <Row style={{ marginBottom: ".8rem" }}>
-        <Col style={{ paddingRight: "0" }} md={4}>
+        <Col style={{ paddingRight: "0" }} xs={6} md={4}>
           <div className={outreach}>
             <Button
               href="/tmp/communityoflove2022.com/#cafe"
@@ -62,7 +62,7 @@ const DesktopHeader = () => {
         </Col>
       </Row>
       <Row>
-        <Col style={{ paddingRight: "0" }} md={4}>
+        <Col style={{ paddingRight: "0" }} xs={6} md={4}>
           <div className={onlineCourses}>
             <Button
               href="/tmp/communityoflove2022.com/#courses"

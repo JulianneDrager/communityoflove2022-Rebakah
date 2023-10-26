@@ -1,0 +1,12 @@
+.h1Style {
+    color: black;
+    text-align: center;
+    padding: 22px;
+    background-color: pink;
+}
+
+.pStyle {
+  color: black;
+  text-align: left;
+  background-color: orange;
+}

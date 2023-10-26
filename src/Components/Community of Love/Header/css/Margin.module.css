@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+.marginStyle {
+  margin: 3rem 0 0 0;
+}
+
+@media screen and (min-width: 328px) {
+  .marginStyle {
+    margin: 3rem 0 0 0;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .marginStyle {
+    margin: 1rem 0 0 0;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .marginStyle {
+    margin: -12.5rem 0 0 0;
+  }
+}
+
+@media screen and (min-width: 378px) {
+  .marginStyle {
+    margin: -12rem 0 0 0;
+  }
+}
+
+@media screen and (min-width: 459px) {
+  .marginStyle {
+    margin: -12rem 0 0 0;
+  }
+} 
+
+@media screen and (min-width: 568px) {
+  .marginStyle {
+    margin: -1.5rem 0 0 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .marginStyle {
+    margin: -.5rem 0 0 0;
+  }
+}
+
+@media screen and (min-width: 736px) {
+  .marginStyle {
+    margin: 7rem 0 0 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .marginStyle {
+    margin: -4.5rem 0 0 0;
+  }
+}
