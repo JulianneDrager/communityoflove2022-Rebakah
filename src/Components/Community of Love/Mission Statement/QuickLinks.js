@@ -15,7 +15,7 @@ const QuickLinks = () => {
   return (
     <>
       <DividerLeft />
-      <Row id="quick-links" className={rowStyle}>
+      <Row id="give" className={rowStyle}>
         <Col md={6}>
           <h1 className={h1Title}>Mission Statement</h1>
           <h2 className={h2Title}>"Nobody Left Behind"</h2>

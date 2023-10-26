@@ -10,6 +10,7 @@ const Swahili = () => {
   const divWrapper = CourseStyle.divWrapper;
   const imgSize = CourseStyle.imgSize;
   const btn = CourseStyle.btn;
+  const btnPadding = CourseStyle.btnPadding;
   return (
     <>
       <div className={divWrapper}>
@@ -18,12 +19,19 @@ const Swahili = () => {
         <div className={galleryCard}>
           {/* <div className={skyLineBlue}></div> */}
           <p className={galleryParagraph}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna
+            Receive a lifetime learning/reference guide emailed to you and a
+            certificate of completion at the end of the 6-week course.
           </p>
-          <Button className={btn} href="/2">
-            BUY COURSE
+          <Button
+            className={[btn, btnPadding]}
+            href="/3"
+          >
+            COMING SOON
           </Button>
+          {/* <hr style={{margin:"2px 0 0 0"}}/>
+          <Button className={btn} href="/1">
+            7-8PM COURSE
+          </Button> */}
         </div>
       </div>
     </>

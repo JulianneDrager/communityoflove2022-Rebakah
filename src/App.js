@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/tmp/communityoflove2022.com/" element={<Screen/>} />
-          <Route exact path="/tmp/communityoflove2022.com/test" element={<CafeScreen/>} />
+          <Route exact path="/tmp/communityoflove2022.com/cafe" element={<CafeScreen/>} />
           <Route exact path="/tmp/communityoflove2022.com/prayer" element={<PrayerFormScreen/>} />
           <Route exact path="/tmp/communityoflove2022.com/about" element={<About/>} />
           <Route exact path="/tmp/communityoflove2022.com/contact" element={<Contact/>} />

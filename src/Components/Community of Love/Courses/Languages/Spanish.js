@@ -10,21 +10,27 @@ const Spanish = () => {
   const divWrapper = CourseStyle.divWrapper;
   const imgSize = CourseStyle.imgSize;
   const btn = CourseStyle.btn;
+  const btnColor = CourseStyle.btnColor;
+
   return (
     <>
-    <div className={divWrapper}>
-      <h6 className={gallerySlideTitle}>SPANISH</h6>
-      <img className={imgSize} src={One} alt="" />
-      <div className={galleryCard}>
-        {/* <div className={skyLineBlue}></div> */}
-        <p className={galleryParagraph}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna
-        </p>
-        <Button className={btn} href="/1">
-        BUY COURSE
-        </Button>
-      </div>
+      <div className={divWrapper}>
+        <h6 className={gallerySlideTitle}>SPANISH</h6>
+        <img className={imgSize} src={One} alt="" />
+        <div className={galleryCard}>
+          {/* <div className={skyLineBlue}></div> */}
+          <p className={galleryParagraph}>
+            Receive a lifetime learning/reference guide emailed to you
+            and a certificate of completion at the end of the 6-week course.
+          </p>
+          <Button className={btn} href="/1">
+            12 - 1PM COURSE
+          </Button>
+          <hr style={{ margin: "2px 0 0 0" }} />
+          <Button className={[btn, btnColor]} href="/1">
+            7 - 8PM COURSE
+          </Button>
+        </div>
       </div>
     </>
   );

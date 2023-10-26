@@ -34,7 +34,7 @@ const Gallery = () => {
       showDots={false}
       responsive={responsive}
       infinite={true}
-      autoPlay="true"
+      autoPlay={true}
       autoPlaySpeed={2500}
       preventMovementUntilSwipeScrollTolerance={true}
       swipeScrollTolerance={50}

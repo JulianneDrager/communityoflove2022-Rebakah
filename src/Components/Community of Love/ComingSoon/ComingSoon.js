@@ -42,9 +42,9 @@ const VenderSection = () => {
                 src={EmployeeIcon}
                 alt="acts-scripture"
               />
-              <h5 className={h5Style}>Find Services</h5>
+              <h5 className={h5Style}>Employment Services</h5>
               <p className={pStyle}>
-                Inquire for assistance and find your perfect match
+                Inquire for assistance to hire and find your perfect match
               </p>
             </Col>
             <Col xs={12} sm={12} md={6} lg={6} className={colStyle}>

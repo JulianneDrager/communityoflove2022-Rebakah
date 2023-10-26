@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+*p {
+  font-family: arial black, arial-w01-black, arial-w02-black, arial-w10 black,
+    sans-serif;
+}
+
+.btnGallery {
+  color: white;
+  font-family: arial;
+  background-color: #a98519;
+  border-radius: 0;
+  border: none;
+  width: 80%;
+  transition: 0.5s;
+  padding: 1rem 0;
+  text-shadow: none;
+}
+
+.btnGallery:hover {
+  background-color: #d1b918;
+  border: none;
+  color: white;
+  transform: scale(80%);
+  box-shadow: none;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.286);
+}
+
+.imgSharon,
+.imgSharonBack,
+.landscape {
+  width: 100%;
+  height: auto;
+}
+
+.imgSharonBack {
+  background-image: url("../../../../images/mobile-header/sharon-slide-background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 2rem 0;
+  width: 100%;
+  height: 750px;
+}
+
+.hideImg {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  margin: -91px 0 0 0;
+}
+
+.landscape {
+  margin: -91px 0 0 0;
+}
+
+.imgSharon {
+  width: 90%;
+}
+
+.BoardTitle {
+  font-size: 0.9rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: white;
+}
+
+.gallerySlideTitleSharon {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding: 0;
+  text-transform: capitalize;
+  letter-spacing: 1.2px;
+  color: white;
+}
+
+.sharonTitle {
+  margin-top: -0.8rem;
+  font-size: 1.8rem;
+}
+
+.galleryCardSharon {
+  text-align: center;
+  color: white;
+  background-color: #102a57f0;
+  margin: -6rem 1.2rem -45px 1.2rem;
+  padding: 1rem 1.3rem;
+  background: linear-gradient(
+    360deg,
+    rgb(255 255 255 / 51%) -20%,
+    rgb(201 82 82 / 0%) 107%,
+    rgb(2 0 36) 77%
+  );
+  backdrop-filter: none;
+  display: inline-table;
+  position: relative;
+  top: 20.1rem;
+  /* backdrop-filter: blur(3px); */
+  backdrop-filter: blur(3px);
+  border-radius: 0.3rem;
+  z-index: 3;
+}
+
+.cardGradient {
+  margin: 29px 0 0 0;
+  background: linear-gradient(
+    360deg,
+    rgb(10 12 13) -20%,
+    #0c0d0f 23%,
+    rgb(2 0 36) 77%
+  );
+}
+
+.pStyle {
+  line-height: 1.2rem;
+  margin: 0 0.5rem 1rem 0;
+}
+
+@media screen and (min-width: 360px) {
+  .galleryCardSharon {
+    margin: -11rem 1.2rem -69px 1.2rem;
+    padding: 1rem 1.5rem;
+    backdrop-filter: none;
+  }
+  .sharonTitle {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .imgSharonBack {
+    height: 808px;
+  }
+  .galleryCardSharon {
+    top: 22.1rem;
+  }
+}
+
+@media screen and (min-width: 385px) {
+  .imgSharonBack {
+    background-position: center top -79px;
+  }
+}
+
+@media screen and (min-width: 460px) {
+  .imgSharonBack {
+    background-position: center top -119px;
+  }
+}
+
+@media screen and (min-width: 521px) {
+  .imgSharonBack {
+    background-position: center top -169px;
+  }
+}
+
+@media screen and (min-width: 566px) {
+  .imgSharonBack {
+    background-position: center top -200px;
+  }
+  .pStyle {
+    margin: 0 1.5rem 1rem 1.5rem;
+  }
+}
+
+@media screen and (min-width: 568px) {
+  .galleryCardSharon {
+    margin: -14px 0.2rem -156px 17.2rem;
+    padding: 1rem 2.5rem 0 1.5rem;
+    text-shadow: 0px 0px 1px white;
+    color: #0b1f42;
+    background: transparent;
+    font-size: 0.9rem;
+    text-align: right;
+    top: 95px;
+    width: 293px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.463);
+  }
+
+  .cardGradient {
+    background: none;
+  }
+
+  .imgSharonBack {
+    background-image: url("../../../../images/mobile-header/sharon-slide-ls.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left -79px;
+    margin: -1em 0;
+    width: 100%;
+    height: 419px;
+  }
+
+  .gallerySlideTitleSharon,
+  .sharonTitle {
+    color: #0b1f42;
+    text-align: right;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  /* .landscape {
+    margin: 0;
+    width: 140%;
+  } */
+
+  .btnGallery {
+    padding: 0.5rem 0;
+  }
+
+  .pStyle {
+    margin: 0 0 1rem 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .galleryCardSharon {
+    margin: -3px 0.2rem -156px 15.5rem;
+    padding: 1rem 3rem;
+    width: 322px;
+  }
+
+  .imgSharonBack{
+    height: 465px;
+  }
+
+}
+
+
+@media screen and (min-width: 736px) {
+  .galleryCardSharon {
+    margin: 1px 0.2rem -156px 15.2rem;
+  }
+}
