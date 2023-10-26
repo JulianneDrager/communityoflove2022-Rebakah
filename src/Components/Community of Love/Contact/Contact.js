@@ -22,11 +22,11 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_xoxtfpl", //service id
-        "live-conference-order", //template id
+        "service_xdgp0y4", //service id
+        "connect-with-community", //template id
         // console.log("DATA",  refForm.current.name.value),
         refForm.current,
-        "pwgvN6dm650vWjxRr" //public key
+        "JY05Vk3JRaOF_oe0Q" //public key
       )
       .then(
         (result) => {
